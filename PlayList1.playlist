@@ -1,0 +1,54 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="Xebia_Selenium" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="Xebia_Selenium" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="Tests" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Xebia_Selenium.Tests.D_PruefeAnzahlKollektion" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="D_PruefeAnzahlKollektion" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Xebia_Selenium.Tests.ALogin" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ALogin" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Xebia_Selenium.Tests.C_Sammlungsmanipulation" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="C_Sammlungsmanipulation" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Xebia_Selenium.Tests.B_Suche_mit_Namen" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="B_Suche_mit_Namen" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Xebia_Selenium.Tests.E_LoescheKollektin" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="E_LoescheKollektin" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
